@@ -1,0 +1,142 @@
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body > .container {
+  padding-top: 60px;
+}
+
+body{
+  background-color: #388EBF;
+  font-family: Lato; 
+}
+
+#header-nav {
+  background-color: #ddd;
+  width: 50%;
+}
+
+.navbar-default .navbar-nav>li>a {
+     color: #388EBF; 
+     font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+  color: #388EBF;
+   font-weight: bolder;
+}
+
+.container{
+  width: 100%;
+}
+
+#ogap-tile, #color-tile, #patatap-tile, #restro-tile {
+  height: 250px;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #388EAB;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+#ogap-tile:hover, #color-tile:hover, #patatap-tile:hover, #restro-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #388EBF;
+}
+
+#ogap-tile:hover .overlay, #color-tile:hover .overlay, #patatap-tile:hover .overlay, #restro-tile:hover .overlay{
+  opacity: 0.95;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+}
+
+#ogap-tile {
+  background: url('../pics/OGAP.png') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: contain; 
+}
+#color-tile {
+  background: url('../pics/ColorGuess.png') no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-image: contain;
+}
+
+#patatap-tile {
+  background: url('../pics/Patatap.png') no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-image: contain;
+}
+
+#restro-tile {
+  background: url('../pics/restro.png') no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-image: contain;
+}
+
+
+.tiles{
+  margin-top: 15px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.panel-footer {
+  position: absolute;
+  width: 100%;
+  /*bottom: 0;*/
+  /*width: 100%;*/
+/*  height: 100%;*/
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #ddd;
+  border-top: 0;
+  color: #388EBF;
+
+}
+
+#contact{
+  text-align: center;
+  font: 1.5em; 
+}
+
+#footer-list{
+  display: inline;
+  list-style: none;
+}
+
+#footer-hr{
+  width: 75%;
+  border-top: 1px solid #388EBF;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
