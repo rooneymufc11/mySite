@@ -1,0 +1,155 @@
+body{
+  background-color: #388EAB;
+  font-family:  Lato;
+}
+
+#header-nav {
+  background-color: #ddd;
+  width: 50%;
+}
+
+.navbar-default .navbar-nav>li>a {
+     color: #388EBF; 
+     font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+  color: #388EBF;
+   font-weight: bolder;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 5em;
+}
+
+hr{
+  width: 75%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.bg-image{
+  background: url('../pics/morning1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family:  Lato;
+  color: white;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+#content{
+  padding-top: 10%;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+         0px 8px 13px rgba(0,0,0,0.1),
+         0px 18px 23px rgba(0,0,0, 0.1);
+  color: #000; 
+  font-family: Gloria Hallelujah;  
+}
+
+.color{
+  background-color: #DDD;
+  opacity: 0.6;
+  position: center;
+  margin-bottom: 5%
+  }
+
+
+#image{
+  background: url('../pics/me.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%; 
+  margin: 25px auto;
+  border: 5px solid #388EAB;
+}
+
+#desc{
+  color: #ddd;
+  font-family: Gloria Hallelujah;
+  text-align: center;
+}
+
+.story{
+  background-color: #ddd;
+  margin-top: 25px;
+  padding: 2%;
+  color: #545E6C
+  margin-right: 10px;
+  border: 5px solid #388EAB;
+}
+
+/*#web{
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  }
+
+  #weird{
+     border-right: 1px solid black;
+  }*/
+#background, #web, #weird, #football{
+ /* background-color: #ddd;*/
+  font-size: 16px;
+}
+
+h3, h4{
+  text-align: center;
+}
+
+.dropdown{
+  list-style: none;
+}
+
+.dropdown p{
+  display: none;
+}
+
+/*footer*/
+
+.container{
+  width: 100%;
+}
+
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #ddd;
+  border-top: 0;
+  color: #388EBF;
+}
+
+#contact{
+  text-align: center;
+  font: 1.5em; 
+}
+
+#footer-list{
+  display: inline;
+  list-style: none;
+}
+
+#footer-hr{
+  width: 75%;
+  border-top: 1px solid #388EBF;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+/*.container.story{
+  background-color: #ddd;
+  width: 90%;
+  margin-top:30px;
+}
+*/
