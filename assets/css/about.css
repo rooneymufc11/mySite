@@ -23,12 +23,12 @@ h1{
   font-size: 5em;
 }
 
-hr{
-  width: 75%;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
-}
 
+hr { 
+    border: 1px ridge #545E6C;
+     width: 75%;
+
+}
 
 .bg-image{
   background: url('../pics/morning1.jpg');
@@ -57,8 +57,9 @@ hr{
 .color{
   background-color: #DDD;
   opacity: 0.6;
-  position: center;
-  margin-bottom: 5%
+  margin: 0 auto;
+  margin-bottom: 5%;
+  padding: 1%;
   }
 
 
@@ -83,9 +84,8 @@ hr{
 .story{
   background-color: #ddd;
   margin-top: 25px;
-  padding: 2%;
-  color: #545E6C
-  margin-right: 10px;
+  /*padding: 2%;*/
+  color: black;
   border: 5px solid #388EAB;
 }
 
@@ -104,6 +104,11 @@ hr{
 
 h3, h4{
   text-align: center;
+}
+
+.story h4{
+  color: #388EAB;
+  font-weight: 600;
 }
 
 .dropdown{
@@ -142,14 +147,8 @@ h3, h4{
 
 #footer-hr{
   width: 75%;
-  border-top: 1px solid #388EBF;
+  border-top: 1px solid ;
   border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-color: #388EAB;
+  border-width: 10px;
 }
-
-
-/*.container.story{
-  background-color: #ddd;
-  width: 90%;
-  margin-top:30px;
-}
-*/
