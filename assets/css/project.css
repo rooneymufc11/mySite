@@ -153,10 +153,6 @@ body{
   font: 1.5em; 
 }
 
-#footer-list{
-  display: inline;
-  list-style: none;
-}
 
 #footer-hr{
   width: 75%;
@@ -165,5 +161,6 @@ body{
 }
 
 
-*/
-
+#contact i{
+  font-size: 200%;
+}

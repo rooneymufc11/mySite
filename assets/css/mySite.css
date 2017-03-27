@@ -115,13 +115,6 @@ hr{
   font: 1.5em; 
 }
 
-#footer-list{
-  display: inline;
-  list-style: none;
-}
-
-#footer-hr{
-  width: 75%;
-  border-top: 1px solid #388EBF;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+#contact i{
+  font-size: 200%;
 }

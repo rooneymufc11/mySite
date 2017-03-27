@@ -351,3 +351,6 @@ p {
 /* Ex-Large devices (large desktops, 1200px and up) */
 
 
+#contact i{
+  font-size: 200%;
+}

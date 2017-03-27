@@ -1,10 +1,3 @@
-console.log("connected!");
-
-// var box = document.querySelector("#trial");
-// box.style.background = "url('assets/pics/evening.jpg')";
-// document.body.style.backgroundImage = "url('D://mySite/assets/pics/afternoon.jpg')";
-
-
 $('#content').css({
   fontSize: '12px',
   left: '200px',
@@ -12,7 +5,6 @@ $('#content').css({
 });
 
 hours = (new Date($.now()).getHours());
-console.log(hours);
 
 if (hours > 4 && hours < 12){
 var imageUrl = 'assets/pics/Opt-morning1.jpg';

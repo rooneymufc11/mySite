@@ -81,6 +81,15 @@ hr {
   text-align: center;
 }
 
+#desc ul li{
+  font-size: 150%;
+  background-color:#DDD;
+}
+
+#desc a{
+  color: #388EAB;
+}
+
 .story{
   background-color: #ddd;
   margin-top: 25px;
@@ -140,10 +149,6 @@ h3, h4{
   font: 1.5em; 
 }
 
-#footer-list{
-  display: inline;
-  list-style: none;
-}
 
 #footer-hr{
   width: 75%;
@@ -151,4 +156,8 @@ h3, h4{
   border-bottom: 1px solid rgba(0,0,0,0.2);
   border-color: #388EAB;
   border-width: 10px;
+}
+
+#contact i{
+  font-size: 200%;
 }
