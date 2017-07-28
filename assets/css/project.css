@@ -124,7 +124,7 @@ body{
 }
 
 #calc-tile{
-  background: url('../pics/calc.png') no-repeat;
+  background: url('../pics/calc.PNG') no-repeat;
   background-position: bottom;
   background-size: 100% 100%;
   background-image: contain;
